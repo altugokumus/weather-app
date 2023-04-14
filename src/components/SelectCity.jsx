@@ -12,7 +12,7 @@ function SelectCity() {
 
   return (
     <div>
-        <select className='select' onChange={handleChange} name="cities" id="cities">
+        <select className='select' onChange={handleChange} name="cities" id="cities" netlify>
             {
               sehirler.map((sehir, i) => <option key={i} value={sehir}>{sehir}</option> )
             }
