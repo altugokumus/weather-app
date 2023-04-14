@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useWeather } from '../Context/WeatherContext'
 
 const DisplayWeather = () => {
 
-    const { data, city } = useWeather();
+    const { data } = useWeather();
 
     const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
     
